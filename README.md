@@ -46,20 +46,20 @@ Mark,Johnson,mjohnson,Passw0rd123,Sales
 
 Run the script from PowerShell as Administrator:
 
-.\CreateUsers.ps1
-Verify results:
+.\CreateUsers.ps1 
+Verify results: 
 
-Get-ADUser jdoe -Properties CanonicalName
-Get-ADGroupMember SalesGroup
-Get-ADGroupMember HRGroup
-📸 Screenshots
-Users provisioned into correct OUs
+Get-ADUser jdoe -Properties CanonicalName 
+Get-ADGroupMember SalesGroup 
+Get-ADGroupMember HRGroup 
+📸 Screenshots 
+Users provisioned into correct OUs 
 
 ![Users Created in OUs](CreateUsersWorks.jpg)
 PowerShell verification
 
 🧩 Example Output
 
-Created jdoe in OU=Sales,DC=lab,DC=local
-Created jsmith in OU=HR,DC=lab,DC=local
-Created mjohnson in OU=Sales,DC=lab,DC=local
+Created jdoe in OU=Sales,DC=lab,DC=local 
+Created jsmith in OU=HR,DC=lab,DC=local 
+Created mjohnson in OU=Sales,DC=lab,DC=local 
