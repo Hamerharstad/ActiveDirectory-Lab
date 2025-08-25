@@ -55,6 +55,7 @@ Get-ADGroupMember HRGroup
 📸 Screenshots
 Users provisioned into correct OUs
 
+![Users Created in OUs](CreateUsersWorks.jpg)
 PowerShell verification
 
 🧩 Example Output
